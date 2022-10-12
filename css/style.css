@@ -2121,8 +2121,7 @@ width:100%;
   display:block;
   padding: 150px;
   position: relative;
-  min-width: 1200px;
-  max-width:1500px;
+  max-width:1600px;
 }
 
 .event_block h2{
