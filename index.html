@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.CINEMA</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  
+
+  <script src="js/jquery-3.6.1.js"></script>
+  
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <header>
+      <div class="head">
+        <h1>
+          <img src="web_imgs/mobile/head_logo.png" alt="상단로고" class="m_logo">
+          <img src="web_imgs/tablet/head_logo.png" alt="상단로고" class="t_logo">
+          <img src="web_imgs/desktop/head_logo.png" alt="상단로고" class="d_logo">
+        </h1>
+        <div class="l_btn">
+          <a href="#" class="open1">
+            <span>탑메뉴 열기</span>
+          </a>
+        </div>
+        <div class="r_btn">
+          <img src="web_imgs/mobile/search_btn.png" alt="검색">
+        </div>
+        <div class="sub_head">
+          <div class="left_head">
+            <ul>
+              <li><a href="#">
+                M.CINEMA특별관
+              </a></li>
+              <li><a href="#">
+                멤버쉽
+              </a></li>
+            </ul>
+          </div>
+          <div class="right_head">
+            <ul>
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#">영화</a>
+          <ul class="submenu_td">
+            <li><a href="#">현재상영작</a></li>
+            <li><a href="#">개봉예정작</a></li> 
+          </ul>
+          </li>
+          <li><a href="#">극장</a>
+            <ul class="submenu_td">
+              <li><a href="#">M.CINEMA 극장</a></li>
+              <li><a href="#">특별관</a></li> 
+            </ul>
+          </li>
+          <li><a href="#">예매</a>
+            <ul class="submenu_td">
+              <li><a href="#">빠른예매</a></li>
+              <li><a href="#">상영시간표</a></li> 
+            </ul>
+          </li>
+          <li><a href="#">무비랭킹</a>
+            <ul class="submenu_td">
+              <li><a href="#">현재상영작</a></li>
+              <li><a href="#">개봉예정작</a></li>
+              <li><a href="#">명예의전당</a></li>  
+            </ul>
+          </li>
+          <li><a href="#">이벤트</a>
+            <ul class="submenu_td">
+              <li><a href="#">진행중인 이벤트</a></li>
+              <li><a href="#">종료된 이벤트</a></li> 
+            </ul>
+          </li>
+          <li><a href="#">혜택</a>
+            <ul class="submenu_td">
+              <li><a href="#">M.CINEMA 맴버쉽</a></li>
+              <li><a href="#">제휴/할인</a></li> 
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="content">
+      <div class="main">
+        <img src="web_imgs/mobile/main_page.jpg" alt="네온사인" class="main_m">
+        <img src="web_imgs/tablet/main_page.jpg" alt="네온사인" class="main_t">
+        <img src="web_imgs/desktop/main_page.jpg" alt="네온사인" class="main_d">
+      </div><!-- .main-->
+
+      <!-- Slider main container -->
+      <div class="tabmenu">
+
+        <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+   
+     
+
+     
+
+      
+
+
+
+       <div class="pagination" id="slider_bottom">
+        <div class="inner">
+          <ul class="rank_sub">
+            <li class="slider-nav" id="active">
+              <a>
+              <img src="web_imgs/mobile/sub_batman.png" alt="모바일"      class="m_img1">
+              </a>
+              <div class="slider-for" id="place1">
+                <div class="inner">
+                  <h1 class="mr_title">무비랭킹</h1>
+                  <div class="movie_post">
+                    <div class="mpost_sumnail_1">
+                      <img src="web_imgs/mobile/main_batman.png" alt="모바일_bat" class="m_bat">
+                      <img src="web_imgs/mobile/15.png" alt="등급" 
+                      class="level">
+                    </div><!-- .mpost_sumnail-->
+                    <div class="mpost_txt1">
+                      <h2>더 배트맨</h2>
+                      <p>영웅이 될것인가, 악당이 될것인가</p>
+                      <span>#액션,#범죄,#드라마</span>
+                    </div>
+                    <div class="mpost_btn">
+                      <div class="mpost_lbtn">상세정보</div>
+                      <div class="mpost_rbtn">예매</div>
+                    </div>
+                  </div><!-- .movie_post -->
+                </div><!-- inner -->
+               </div><!-- .swiper-slide1 -->
+            </li>
+            <li class="slider-nav">
+              <a>
+                <img src="web_imgs/mobile/sub_spider.png" alt="모바일"      class="m_img2">
+                </a>
+                <div class="slider-for" id="place2">
+                  <div class="inner">
+                    <h1 class="mr_title">무비랭킹</h1>
+                    <div class="movie_post">
+                      <div class="mpost_sumnail_1">
+                        <img src="web_imgs/desktop/main_spider.png" alt="모바일_bat" class="m_bat">
+                        <img src="web_imgs/mobile/12.png" alt="등급" 
+                        class="level">
+                      </div><!-- .mpost_sumnail-->
+                      <div class="mpost_txt1">
+                        <h2>스파이더맨 : 노 웨이 홈</h2>
+                        <p>새로운 멀티버스가 찾아온다!</p>
+                        <span>#액션,#모험,#블록버스터</span>
+                      </div>
+                      <div class="mpost_btn">
+                        <div class="mpost_lbtn">상세정보</div>
+                        <div class="mpost_rbtn">예매</div>
+                      </div>
+                    </div><!-- .movie_post -->
+                  </div><!-- inner -->
+                 </div><!-- .swiper-slide2 -->
+            </li>
+            <li class="slider-nav">
+              <a>
+                <img src="web_imgs/mobile/sub_eternus.png" alt="모바일"      class="m_img3">
+                </a>
+                <div class="slider-for" id="place3">
+                  <div class="inner">
+                    <h1 class="mr_title">무비랭킹</h1>
+                    <div class="movie_post">
+                      <div class="mpost_sumnail_1">
+                        <img src="web_imgs/desktop/main_eternus.png" alt="모바일_bat" class="m_bat">
+                        <img src="web_imgs/mobile/12.png" alt="등급" 
+                        class="level">
+                      </div><!-- .mpost_sumnail-->
+                      <div class="mpost_txt1">
+                        <h2>이터널스</h2>
+                        <p>세상을 구할 태초의 수호자</p>
+                        <span>#액션,#드라마,#SF</span>
+                      </div>
+                      <div class="mpost_btn">
+                        <div class="mpost_lbtn">상세정보</div>
+                        <div class="mpost_rbtn">예매</div>
+                      </div>
+                    </div><!-- .movie_post -->
+                  </div><!-- inner -->
+                 </div><!-- .swiper-slide3 -->
+            </li>
+            <li class="slider-nav">
+              <a>
+                <img src="web_imgs/mobile/sub_doctor2.png" alt="모바일"      class="m_img4">
+              
+                </a>
+                <div class="slider-for" id="place4">
+                  <div class="inner">
+                    <h1 class="mr_title">무비랭킹</h1>
+                    <div class="movie_post">
+                      <div class="mpost_sumnail_1">
+                        <img src="web_imgs/desktop/main_doctor2.png" alt="모바일_bat" class="m_bat">
+                        <img src="web_imgs/mobile/15.png" alt="등급" 
+                        class="level">
+                      </div><!-- .mpost_sumnail-->
+                      <div class="mpost_txt1">
+                        <h2>닥터 스트레인지 : 대혼돈의 멀티버스</h2>
+                        <p>영웅이 될것인가, 악당이 될것인가</p>
+                        <span>#액션,#범죄,#드라마</span>
+                      </div>
+                      <div class="mpost_btn">
+                        <div class="mpost_lbtn">상세정보</div>
+                        <div class="mpost_rbtn">예매</div>
+                      </div>
+                    </div><!-- .movie_post -->
+                  </div><!-- inner -->
+                 </div><!-- .swiper-slide4 -->
+            </li>
+          </ul>
+        </div>
+       </div><!-- .swiper-pagination -->
+     
+
+    </div><!-- .tabmenu -->
+
+    
+
+      
+
+      <div class="event_block">
+        <h2>EVENT</h2>
+          <div class="inner" id="event_inner">
+            
+            <div class="event_contents">
+              <div class="event_box" id="movie101">
+                <div class="event_ltxt">
+                  <strong>HALL OF FAME(명예의 전당) 개최!</strong>
+                  <p>2022.03.01&nbsp;~&nbsp;2022.03.26</p>
+                </div>
+                <div class="movie01_rtxt">
+                  <img src="web_imgs/mobile/onthetop.png" alt="simbol1">
+                </div>
+              </div>
+              <div class="event_box" id="squidgame">
+                <div class="event_ltxt">
+                  <strong>오징어게임 X M.CINEMA 콜라보 이벤트</strong>
+                  <p>2022.05.17&nbsp;~&nbsp;2022.06.19</p>
+                </div>
+                <div class="squidgame_rtxt">
+                  <img src="web_imgs/mobile/event_squidsim.png" alt="simbol1">
+              </div>
+              </div>
+              <div class="event_box" id="vacanse">
+                <div class="event_ltxt">
+                  <strong>M.CINEMA 바캉스 이벤트</strong>
+                  <p>2022.07.17&nbsp;~&nbsp;2022.08.12</p>
+                </div>
+                <div class="vacanse_rtxt">
+                  <img src="web_imgs/mobile/vacansesim.png" alt="simbol1">
+              </div>
+              </div>
+              
+              </div><!-- .swiper-wrapper -->
+             
+             
+             
+          </div><!-- .inner -->
+        
+
+        <button class="mplus_btn1">
+          <p>더보기&nbsp;+</p>
+        </button>
+       
+      </div><!-- .event_block -->
+
+
+
+      <div class="movieplay">
+        <div class="inner" id="play_inner">
+         
+        <h2>개봉예정영화</h2>
+        <div class="movieplay_flex">
+        <div class="play_doctor2">
+          <div class="m_doctor2" style="position:relative; height:0;padding-bottom:56.25%; margin: 0px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mI9oyFMUlfg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+            position: absolute; width:100%; height:100%;"></iframe>
+          </div>
+          <div class="m_doctor2_txt">
+            <p class="txt1">닥터스트레인지 : 광기의 멀티버스<br>
+              2차 예고편</p>
+          </div>
+        </div>
+        <div class="play_batman">
+          <div class="m_batman" style="position:relative; height:0;padding-bottom:56.25%; margin: 0px;">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/O939jApfgt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="
+            position: absolute; width:100%; height:100%;"></iframe>
+          </div>
+          <div class="m_batman_txt">
+            <p class="txt1">더 배트맨<br>
+              2차 예고편</p>
+        </div>
+
+       
+      </div>
+    </div><!-- .movieplay_flex -->
+      
+      <button class="mplus_btn2">
+        <p>더보기&nbsp;+</p>
+      </button>
+      </div><!-- .inner -->
+      </div><!-- .movieplay -->
+
+      <div class="special_room">
+        <div class="inner" id="special_inner">
+          <div class="special_title">
+            <h2>엠시네마 특별관</h2>
+            <p>모두가 원하는 장르를 모아놓은 엠시네마 특별관</p>
+          </div><!-- .special_title-->
+          <div class="gallery">
+            <article class="from-left" id="avengers">
+              <a href="#" class="image fit">
+                <img src="web_imgs/desktop/special_avengers.png" alt="avengers">
+              
+                <div class="spec_txt" >
+                  <h3>인피니티 사가!<br>
+                  아이언맨부터 어벤져스4까지 정주행!!</h3>
+                  <p>#액션,#모험,#블록버스터</p>
+                </div>
+              
+              </a>
+            </article>
+            <article class="from-right" id="lalaland">
+              <a href="#" class="image fit">
+                <img src="web_imgs/desktop/special_lalaland.png" alt="lalaland">
+                <div class="spec_txt" >
+                  <h3>황홀한 사랑, 격렬한 열정...<br>
+                    이 곳에서 모든 감정이 폭발한다!</h3>
+                  <p>#드라마#뮤지컬#멜로/로맨스</p>
+                  </div>
+              </a>
+            </article>
+
+            <article class="from-left" id="interstaller">
+              <a href="#" class="image fit">
+                <img src="web_imgs/desktop/special_interstallra.png" alt="interstallra">
+                <div class="spec_txt" >
+                  <h3>"우린 답을 찾을 거야,<br>&nbsp; 늘 그랬듯이"</h3>
+                  <p>#SF#모험#드라마</p>
+                  </div>
+              </a>
+            </article>
+            <article class="from-right" id="joker">
+              <a href="#"" class="image fit">
+                <img src="web_imgs/desktop/special_joker.png"  alt="joker">
+                <div class="spec_txt" >
+                  <h3>"내 인생이 비극인줄 알았는데,<br>
+                   코미디였어"</h3>
+                  <p>#범죄#스릴러</p>
+                  </div>
+              </a>
+            </article>
+
+            <article class="from-left" id="horor">
+              <a href="#" class="image fit">
+                <img src="web_imgs/desktop/special_horor.png" alt="horor">
+                <div class="spec_txt" >
+                  <h3>13년이 지난 지금,<br> 원혼의 저주는
+                   멈추지 않았다!</h3>
+                  <p>#공포</p>
+                  </div>
+              </a>
+            </article>
+            <!-- <article class="from-right" id="plus">
+              <a href="#" class="image fit">
+                <div class="spec_txt" id="spec_txtlast">
+                  <h3>더보기&nbsp;+</h3>
+                  
+                  </div>
+              </a>
+            </article> -->
+          </div><!-- .gallery -->
+
+        </div><!-- .inner -->
+      </div><!-- .special_room-->
+
+      <div class="banner">
+        <div class="inner" id="banner_inner">
+          <div class="banner_txt">
+            <div class="btxt_left">
+              <div class="banner_logo">
+              <img src="web_imgs/desktop/banner_logo.png"alt="광고로고"
+              class="ban_logo1">
+            </div><!-- .banner_logo -->
+
+              <p>매주 수,토요일마다 영화티켓 장당<br> <b>
+                5,000 마일리지</b> 적립!!<br>
+              그 외 요일은 1,000 마일리지 적립</p>
+
+              <button>자세히보기</button>
+            </div>
+            <div class="btxt_right">
+             
+              <img src="web_imgs/desktop/malilge.png" alt="마일리지" class="mail_3">
+            </div>
+          </div>
+        </div><!-- .inner-->
+      </div><!-- .banner -->
+
+      <div class="notice">
+        <div class="inner" id="notice_inner">
+          <div class="notice_1">
+            <strong>공지사항</strong>
+            <div class="notice_txt">
+              <p>[시스템점검] 2022년 7월 점검</p>
+              <span>2022.07.01</span>
+            </div>
+          </div>
+        </div><!-- .inner-->
+      </div><!-- .notice -->
+    </div><!-- .inner -->
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div class="inner" id="footer_inner">
+          <div class="foot_left">
+            <div class="f_top">
+              <ul>
+                <li><a href="#">
+                  회사소개
+                </a></li>
+                <li><a href="#">
+                  이용약관
+                </a></li>
+                <li><a href="#">
+                  개인정보처리방침
+                </a></li>
+                <li><a href="#">
+                  법적고지
+                </a></li>
+                <li><a href="#">
+                  윤리경영
+                </a></li>
+              </ul>
+            </div>
+            <div class="f_bot">
+              <p>
+                M.CINEMA<BR>
+                사업자등록번호 : 123-45-67890 사업자정보확인<BR>
+                대표자 : 문종민<BR>
+                m.cinema@m.cinema.com<br>
+                copyright 2022 M.CINEMA all right reversed<br>
+                본 웹사이트는 포트폴리오용으로 제작되었습니다.
+              </p>
+            </div>
+          </div>
+          <div class="foot_right">
+            <ul>
+              <li><a href="#">
+                <img src="web_imgs/mobile/kakao_icon.png" alt="아이콘"
+                class="m_kakao">
+                <img src="web_imgs/tablet/kakao_icon.png" alt="아이콘"
+                class="t_kakao">
+                <img src="web_imgs/desktop/kakao_icon.png" alt="아이콘"
+                class="d_kakao">
+              </a></li>
+              <li><a href="#">
+                <img src="web_imgs/mobile/youtube_icon.png" alt="아이콘"
+                class="m_youtube">
+                <img src="web_imgs/tablet/youtube_icon.png" alt="아이콘"
+                class="t_youtube">
+                <img src="web_imgs/desktop/youtube_icon.png" alt="아이콘"
+                class="d_youtube">
+              </a></li>
+              <li><a href="#">
+                <img src="web_imgs/mobile/facebook_icon.png" alt="아이콘"
+                class="m_facebook">
+                <img src="web_imgs/tablet/facebook_icon.png" alt="아이콘"
+                class="t_facebook">
+                <img src="web_imgs/desktop/facebook_icon.png" alt="아이콘"
+                class="d_facebook">
+              </a></li>
+              <li><a href="#">
+                <img src="web_imgs/mobile/instar_icon.png" alt="아이콘"
+                class="m_instar">
+                <img src="web_imgs/tablet/instar_icon.png" alt="아이콘"
+                class="t_instar">
+                <img src="web_imgs/desktop/instar_icon.png" alt="아이콘"
+                class="d_instar">
+              </a></li>
+            </ul>
+          </div>
+        </div><!-- .inner-->
+      </div><!-- .footer-->
+    </footer>
+
+  </div><!-- #wrap -->
+  
+</body>
+</html>
