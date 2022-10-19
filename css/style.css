@@ -2004,9 +2004,9 @@ header{
     height:90px;
     background-color:#262626;
     position:relative;
-    padding:20px 150px 0px;
-    min-width:1024px;
-  
+    padding:20px 70px 0px;
+    margin:0 auto;
+  max-width:1200px;
   }
 
 
@@ -2043,12 +2043,16 @@ header{
       width:100%;
       height:40px;
       background-color:#262626;
-      padding:0 150px;
+      padding:0 200px;
       max-width:none;
      }
 
      .nav::after{
       content:""; display: block; clear:both;
+     }
+     .nav>ul{
+      max-width:1200px;
+      margin:0 auto;
      }
 
      .nav>ul>li{
@@ -2069,6 +2073,7 @@ header{
   width:100%;
   height:10px;
   margin-top:40px;
+  max-width:1200px;
   /* background-color: tomato; */
 }
 
@@ -2119,7 +2124,7 @@ width:100%;
   width:100%;
   margin:0 auto;
   display:block;
-  padding: 150px;
+  /* padding: 150px; */
   position: relative;
   max-width:1600px;
 }
@@ -2221,13 +2226,13 @@ padding:50px 0;
   /* height:800px; */
   /* background-color: #eddeee; */
   padding: 0;
-  position:relative; min-width: 1200px;
+  position:relative;
   max-width:1500px;
   margin:0 auto;
 }
 
 #play_inner{
-  padding:150px;
+  padding:80px 70px;
 }
 
 
@@ -2292,7 +2297,7 @@ padding:20px}
   display: block;
   position:absolute;
   background-color:transparent;
-  top:155px; right:155px;
+  top:85px; right:75px;
   height:30px;
   border:none;
   line-height:30px;
@@ -2311,7 +2316,7 @@ font-size:12px;
   display: block;
   position:absolute;
   background-color:transparent;
-  top:155px; right:155px;
+  top:85px; right:75px;
   height:30px;
   border:none;
 }
